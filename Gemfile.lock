@@ -11,4 +11,4 @@ PLATFORMS
 
 DEPENDENCIES
   rack-contrib
-  rack-rewrite
+  rack-rewrite (~> 1.0.0)
