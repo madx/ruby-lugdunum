@@ -262,6 +262,9 @@ header nav ul li a.current, header nav ul li:hover > a {
   opacity: 1;
   border: 2px solid #fff;
 }
+.logo{
+  width: 150px
+}
 .one_third {
   letter-spacing: -1px;
   float: left;
