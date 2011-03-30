@@ -1,7 +1,5 @@
 require "rubygems"
-require "bundler/setup"
-Bundler.setup(:default)
-
+require 'rack/contrib'
 require 'rack-rewrite'
 
 use Rack::Static, :urls => ['/javascripts'], :root => "public"
