@@ -2,13 +2,13 @@ GEM
   remote: http://rubygems.org/
   specs:
     rack (1.2.2)
-    rack-contrib (1.1.0)
-      rack (>= 0.9.1)
-    rack-rewrite (1.0.2)
+    sinatra (1.1.0)
+      rack (~> 1.1)
+      tilt (~> 1.1)
+    tilt (1.1)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
-  rack-contrib
-  rack-rewrite (~> 1.0.0)
+  sinatra
