@@ -28,7 +28,8 @@ figure img {width: 100%;}
 ------------------  */
 
 .logo {
-  width: 150px;
+  width: 120px;
+  margin-right: 10px;
 }
 
 .gigantic {
@@ -131,7 +132,7 @@ a {
 }
 body {
   font-family: , sans-serif;
-  background-color: #15151E;
+  background-color: blue;
   min-height: 700px;
   color: #fff;
 }
@@ -153,11 +154,11 @@ nav ul {
 nav li {
   float: left;
   position: relative;
-  font-size: 23px;
+  font-size: 20px;
   list-style: none;
   display: inline-block;
   letter-spacing: -1px;
-  margin-left: 20px;
+  margin-left: 5px;
   padding-bottom: 5px;
 }
 nav ul > li:last-child {
