@@ -439,3 +439,16 @@ img.keynote_pic {
   text-align: center;
   margin-left: 100px;
 }
+
+#sponsors li {
+  text-align: center;
+  margin: 50px 20px;
+}
+#sponsors img {
+  width: 120px;
+  margin: 0px;
+}
+#sponsors a {
+  color: black;
+  display: block;
+}
