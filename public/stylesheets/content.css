@@ -87,6 +87,7 @@ hr {
 }
 p {
   margin-bottom: 24px;
+  text-align: justify;
 }
 a {
   color: #fff;
@@ -226,10 +227,25 @@ header nav ul li a.current, header nav ul li:hover > a {
   padding: 24px 24px;
   width: 664px;
 }
+.column_1 ul {
+  margin: 10px;
+}
+.column_1 li {
+  margin-left:30px;
+  display: block;
+}
+.column_2 ul {
+  background: white
+}
 .column_2 li {
   margin-top:24px;
   display: block;
 }
+.program img{
+  width: 200px;
+  margin-right: 5px;
+}
+
 .speaker_bio {
   overflow: hidden;
   position: relative;
@@ -315,7 +331,7 @@ header nav ul li a.current, header nav ul li:hover > a {
   letter-spacing: 0px;
   display: inline;
 }
-.column_2 p, .column_1 p {
+.column_2 p li, .column_1 p li {
   color: #A9A9A9;
   letter-spacing: 0px;
 }
@@ -345,13 +361,14 @@ footer li a {
   -webkit-border-radius: 5px;
   -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
   -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+  width: 120px;
 }
 .speakers img {
   width: 219px;
 }
 .organizers li {
   padding: 12px 0px;
-  width: 205px;
+  width: 155px;
   text-align: left;
   float: left;
 }
