@@ -15,7 +15,7 @@ class Rulu < Sinatra::Base
     show :program
   end
   
-  get' /speaker' do
+  get '/speaker' do
     show :speaker
   end
   
