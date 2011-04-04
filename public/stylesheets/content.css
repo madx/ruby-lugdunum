@@ -408,11 +408,6 @@ img.keynote_pic {
   padding-bottom: 14px;
 }
 
-::selection     {background: rgb(255,255,0);}
-::-moz-selection  {background: rgb(255,255,0);}
-img::selection    {background: transparent;}
-img::-moz-selection {background: transparent;}
-
 .box {
   width: 150px;
   border: white 1px solid;
