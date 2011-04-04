@@ -215,14 +215,12 @@ header nav ul li a.current, header nav ul li:hover > a {
   width: 1068px;
 }
 .column_full {
-  letter-spacing: -1px;
   float: left;
 
   padding: 24px 24px;
   width: 100%;
 }
 .column_1 {
-  letter-spacing: -1px;
   float: left;
   padding: 24px 24px;
   width: 664px;
@@ -255,7 +253,6 @@ header nav ul li a.current, header nav ul li:hover > a {
   width: 308px;
 }
 #speakers > div {
-  letter-spacing: 0px;
   position: absolute;
   left: 640px;
   top: -12px;
@@ -286,7 +283,6 @@ header nav ul li a.current, header nav ul li:hover > a {
   width: 150px
 }
 .one_third {
-  letter-spacing: -1px;
   float: left;
   width: 308px;
   margin: 12px 12px;
@@ -322,7 +318,6 @@ header nav ul li a.current, header nav ul li:hover > a {
   -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
 }
 .column_2 {
-  letter-spacing: -1px;
   float: left;
   padding: 24px 0px 12px 24px;
   width: 332px;
@@ -331,12 +326,10 @@ header nav ul li a.current, header nav ul li:hover > a {
   color: #fff;
   font-size: 26px;
   line-height: 36px;
-  letter-spacing: 0px;
   display: inline;
 }
 .column_2 p li, .column_1 p li {
   color: #A9A9A9;
-  letter-spacing: 0px;
 }
 /* footer */
 footer {
@@ -384,7 +377,6 @@ footer li a {
 .speaker h2, .column_1 h2, .column_2 h2 {
   color: #fff;
   font-size: 23px;
-  letter-spacing: -1px;
   text-transform: uppercase;
   line-height: 23px;
 }
@@ -395,7 +387,6 @@ img.keynote_pic {
 }
 .side_pres h3, .presentation h3 {
   font-size: 18px;
-  letter-spacing: 0px;
   line-height: 8px;
 }
 .side_pres{
