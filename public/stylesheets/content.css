@@ -235,11 +235,14 @@ header nav ul li a.current, header nav ul li:hover > a {
   display: block;
 }
 .column_2 ul {
-  background: white
+  background: white;
+  margin-left: 60px;
+  width: 200px;
 }
 .column_2 li {
-  margin-top:24px;
+  margin-top:10px;
   display: block;
+  margin-left: 20px;
 }
 .program img{
   width: 200px;
