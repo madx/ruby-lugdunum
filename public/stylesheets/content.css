@@ -326,10 +326,12 @@ header nav ul li a.current, header nav ul li:hover > a {
   color: #fff;
   font-size: 26px;
   line-height: 36px;
+  letter-spacing: 0px;
   display: inline;
 }
 .column_2 p li, .column_1 p li {
   color: #A9A9A9;
+  letter-spacing: 0px;
 }
 /* footer */
 footer {
