@@ -456,3 +456,9 @@ img.keynote_pic {
 #lyon {
   text-align: center;
 }
+
+#lyon img {
+  width: 200px;
+  height: 300px;
+}
+
