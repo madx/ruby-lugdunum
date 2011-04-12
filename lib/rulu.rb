@@ -11,12 +11,12 @@ class Rulu < Sinatra::Base
     show :index
   end
   
-  get '/program' do
-    show :program
+  get '/schedule' do
+    show :schedule
   end
   
-  get '/speaker' do
-    show :speaker
+  get '/speakers' do
+    show :speakers
   end
   
   get '/venue' do
