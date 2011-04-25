@@ -132,7 +132,7 @@ a {
 }
 body {
   font-family: , sans-serif;
-  background-color: #248;
+  background-color: #15151E;
   min-height: 700px;
   color: #fff;
 }
@@ -193,7 +193,7 @@ header nav ul li a.current, header nav ul li:hover > a {
   height: 145px;
 }
 .banner_2 {
-  min-height: 1150px;
+  background-color: #248;
 }
 .center {
   margin: 0 auto;
