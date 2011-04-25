@@ -194,9 +194,6 @@ header nav ul li a.current, header nav ul li:hover > a {
 }
 .banner_2 {
   min-height: 1150px;
-  background: -webkit-gradient(
-  radial, 50% 250, 0, 50% 50%, 500, from(#2F3141), to(#1B1D23)
-  ) #1B1D23;
 }
 .center {
   margin: 0 auto;
@@ -253,10 +250,6 @@ header nav ul li a.current, header nav ul li:hover > a {
   background: rgba(0,0,0,.1);
   border: 2px solid #333;
   padding: 10px 10px;
-  -webkit-background-clip: padding;
-  -webkit-border-radius: 6px;
-  -webkit-box-shadow: 0 0 3px #333;
-  -webkit-transition: all 100ms ease-in-out;
 }
 .speaker_bio div p{
   display: block;
@@ -293,11 +286,6 @@ header nav ul li a.current, header nav ul li:hover > a {
 .green {
   background-color: green;
 }
-/* .one_third .last { */
-/* width: 356px; */
-/* padding: 24px 0px 12px 24px; */
-/* width: 332px; */
-/* } */
 .photo {
   margin-bottom: 24px;
   border: 7px solid #2B2D39;
