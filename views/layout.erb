@@ -1,4 +1,4 @@
-<!DOCTYPE HTML>
+<!doctype html>
 <html>
   <head>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
@@ -14,24 +14,15 @@
     <div class="banner_1">
       <div class="center clearfix">
         <header>
-          <a href="/"><img alt="ruby-lugdunum-logo" src="images/ruby-lugdunum-logo.png" class="logo"></a>
-          <div class="logo_text"></div>
-          <h1>
-            <span class="red">Ruby Lugdunum</span>
-          </h1>
-          <h2>
-            25-26 June 2011
-          </h2>
-          <h3>
-            Lyon, France
-          </h3>
+          <h1><a href="http://rulu.eu" class="red">Ruby Lugdunum</a></h1>
+          <h2>25-26 June 2011</h2>
+          <h3>Lyon, France</h3>
           <nav>
             <ul>
               <li><a href="/" class="current">HOME</a></li>
-              <li><a href="/sponsoring">SPONSORING</a></li>
-              <!--<li><a href="/speaker">SPEAKER</a></li>
-              <li><a href="/program">PROGRAM</a></li>
-              <li><a href="/venue">VENUE</a></li>-->
+              <!-- <li><a href="/speakers">SPEAKERS</a></li> -->
+              <li><a href="/schedule">SCHEDULE</a></li>
+              <!-- <li><a href="/venue">VENUE</a></li> -->
             </ul>
           </nav>
           <!--<div class="banner">
@@ -43,9 +34,32 @@
     <div class="banner_2">
       <div class="center clearfix">
         <%= yield %>
+
+        <div class="column_2">
+          <div id="twitter">
+            <p>Follow us on twitter <a href="http://twitter.com/rubylug">@rubylug</a></p>
+          </div>
+
+          <div id="sponsors">
+            <h2>Sponsors</h2>
+            <a href="mailto:rulu@lyonrb.fr" class="become_sponsor">You ?</a>
+
+            <ul>
+              <li>
+                <a href="http://www.leadformance.com/">
+                  <img alt="Leadformance" src="images/logo_leadformance.gif" /><br />Leadformance
+                </a>
+              </li>
+              <li>
+                <a href="http://www.sogilis.com/">
+                  <img alt="Sogilis" src="images/logo_sogilis.jpg" /><br />Sogilis
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
     </div>
-
     <footer>
       <div class="center clearfix">
         <ul>
