@@ -540,10 +540,36 @@ img.keynote_pic {
 }
 
 .left-column {
-  height: 400px;
-  float: right;
+  display: inline-block;
+  vertical-align: top;
+  width: 45%;
 }
+
+.left-column h3, .right-column h3 {
+  position: relative;
+  left: 20%;
+}
+
+.left-column img, .right-column img {
+  position: relative;
+  left: 22%;  
+}
+
+#sponsoring + .column_2 {
+  display: none;
+}
+
 .right-column {
-  height: 400px;
-  float: right;
+  display: inline-block;
+  margin-left: 10px;
+  vertical-align: top;
+  width: 45%;
+}
+
+#sponsoring .sponsoring-banner {
+  background-color: #282;
+  margin: 10px auto;
+  padding: 10px;
+  text-align: center;
+  width: 400px;
 }
