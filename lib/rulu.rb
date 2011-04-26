@@ -23,6 +23,10 @@ class Rulu < Sinatra::Base
     show :venue
   end
   
+  get '/sponsoring' do
+    show :sponsoring
+  end
+  
   private
   def show(page, layout = true)
     erb page.to_sym, {:layout => layout}
