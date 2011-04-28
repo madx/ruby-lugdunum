@@ -573,3 +573,16 @@ img.keynote_pic {
   text-align: center;
   width: 400px;
 }
+
+#sponsoring ul, #sponsoring li {
+}
+#sponsoring li {
+  display: list-item;
+}
+#sponsoring ul {
+  margin: 0 0 10px 30px;
+}
+
+#sponsoring h4 {
+  margin-top: 10px;
+}
