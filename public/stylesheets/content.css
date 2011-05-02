@@ -420,6 +420,7 @@ img.keynote_pic {
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
   border-radius: 5px;
+  padding: 10px
 }
 #sponsors ul {
   padding-top: 50px;
@@ -489,6 +490,10 @@ img.keynote_pic {
 
 #schedule h2 {
   text-align: left;
+}
+
+.break {
+  font-size: 12px
 }
 
 #saturday, #sunday {
