@@ -186,12 +186,10 @@ header nav ul li a.current, header nav ul li:hover > a {
 
 .banner_1 {
   background: #fff;
-  height: 260px;
+  height: 160px;
   padding-top: 10px;
 }
-.smaller {
-  height: 145px;
-}
+
 .banner_2 {
   background-color: #248;
 }
@@ -300,7 +298,7 @@ header nav ul li a.current, header nav ul li:hover > a {
   width: 332px;
 }
 .column_1 h2, .column_2 h2, .column_full h2 {
-  color: #fff;
+  color: #A9A9A9;
   font-size: 26px;
   line-height: 36px;
   letter-spacing: 0px;
@@ -353,7 +351,7 @@ footer li a {
   margin-bottom: 0px;
 }
 .speaker h2, .column_1 h2, .column_2 h2 {
-  color: #fff;
+  color: #A9A9A9;
   font-size: 23px;
   text-transform: uppercase;
   line-height: 23px;
@@ -422,6 +420,7 @@ img.keynote_pic {
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
   border-radius: 5px;
+  padding: 10px
 }
 #sponsors ul {
   padding-top: 50px;
@@ -491,6 +490,10 @@ img.keynote_pic {
 
 #schedule h2 {
   text-align: left;
+}
+
+.break {
+  font-size: 12px
 }
 
 #saturday, #sunday {
