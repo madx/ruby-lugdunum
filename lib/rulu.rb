@@ -8,20 +8,32 @@ class Rulu < Sinatra::Base
   set :static, true
 
   helpers do
-    def speaker(text)
-      "<em>#{text}</em>"
+    def speaker(time, name, link, talk)
+      <<HTML
+      <tr class="two_row">
+        <th>
+          #{time}
+        </th>
+        <td>
+          <a href="/speakers##{link}">#{name}</a>
+          <br>
+          #{talk}
+        </td>
+      </tr>
+HTML
     end
+
 
     def break_helper(time)
       <<HTML
-        <tr class="two_row">
-          <th>
-            #{time}
-          </th>
-          <td>
-            Break
-          </td>
-        </tr>
+      <tr class="one_row">
+        <th>
+          #{time}
+        </th>
+        <td class="break">
+          Break
+        </td>
+      </tr>
 HTML
     end
   end
