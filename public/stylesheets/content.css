@@ -588,3 +588,28 @@ img.keynote_pic {
 #sponsoring h4 {
   margin-top: 10px;
 }
+
+
+.schedule tr:nth-child(even) {background: #2E5CB8}
+.schedule tr:nth-child(odd) {background: #507BD3}
+
+.schedule table {
+  width: 500px;
+  margin: 10px;
+}
+
+.schedule table td {
+  padding: 3px;
+}
+
+.schedule .hours {
+  width: 150px;
+  font-weight: bold;
+}
+
+.schedule .break {
+  text-align: center;
+}
+
+.schedule .description {
+}
