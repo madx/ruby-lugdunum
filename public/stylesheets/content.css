@@ -430,7 +430,7 @@ img.keynote_pic {
   margin: 50px 20px;
 }
 #sponsors img {
-  width: 120px;
+  max-width: 120px;
   margin: 0px;
 }
 
