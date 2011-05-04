@@ -15,7 +15,7 @@ class Rulu < Sinatra::Base
           #{time}
         </th>
         <td>
-          <a href="/speakers##{link}">#{name}</a>
+          <a href="#">#{name}</a>
           <br>
           #{talk}
         </td>
