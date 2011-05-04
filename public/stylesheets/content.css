@@ -537,6 +537,8 @@ img.keynote_pic {
   text-align: right;
 }
 
+/* sponsoring */
+
 #sponsoring h2 {
   color: #fff;
 }
@@ -589,6 +591,7 @@ img.keynote_pic {
   margin-top: 10px;
 }
 
+/* schedule */
 
 table.schedule tr {
   padding-left: 5px;
