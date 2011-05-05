@@ -724,3 +724,18 @@ background-color: #91BD09;
 .column_2 {
   width: 25%;
 }
+
+/* venue */
+
+.sexy-bullet-points li {
+list-style: disc;
+display: list-item;
+}
+
+.sexy-bullet-points a {
+text-decoration: underline;
+}
+
+.sexy-bullet-points li:after {
+content: " ↓";
+}
