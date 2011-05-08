@@ -739,3 +739,17 @@ text-decoration: underline;
 .sexy-bullet-points li:after {
 content: " ↓";
 }
+
+#organized-by {
+  color: #ccc;
+  margin: 0 0 -20px 0;
+  padding: 0;
+  position: relative;
+  top: -10px;
+  left: 355px;
+}
+
+#organized-by a {
+  color: #ccc;
+  text-decoration: underline;
+}
