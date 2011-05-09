@@ -36,6 +36,21 @@ HTML
       </tr>
 HTML
     end
+
+    def current_tab(tab_info)
+      tab, name = tab_info
+      current = ""
+      if request.path_info == tab
+        current = "class='current'" 
+      end
+      <<HTML
+      <li>
+	<a href="#{tab}" #{current} >
+	  #{name}
+	</a>
+      </li>
+HTML
+    end
   end
 
   get '/' do

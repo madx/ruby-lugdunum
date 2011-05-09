@@ -686,6 +686,12 @@ table.schedule {
   width: 444px;
 }
 
+.ui-tabs-selected {
+  background-color: #25254E ;
+
+}
+
+
 /* Buy button */
 
 .awesome{
