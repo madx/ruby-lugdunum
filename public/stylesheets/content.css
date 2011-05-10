@@ -112,6 +112,7 @@ a {
   text-decoration: none;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
+  border-radius: 5px;
   -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
   -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
   text-shadow: 0 -1px 1px rgba(0,0,0,0.25);
@@ -168,8 +169,9 @@ nav li a {
   color: #CB1903;
   text-decoration: none;
   font-weight: bold;
-  -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
   padding: 6px 9px;
 }
 header nav ul li a.current, header nav ul li:hover > a {
@@ -289,6 +291,7 @@ header nav ul li a.current, header nav ul li:hover > a {
   border: 7px solid #2B2D39;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
+  border-radius: 5px;
   -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
   -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
 }
@@ -331,6 +334,7 @@ footer li a {
 .organizers img, .speakers img {
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
+  border-radius: 5px;
   -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
   -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
   width: 100px;
@@ -417,7 +421,6 @@ img.keynote_pic {
 .sponsors, .gold-sponsors {
   background-color: white;
   margin: 0 0 10px 0;
-
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
   border-radius: 5px;
@@ -470,8 +473,8 @@ img.keynote_pic {
 
 #cfp-banner {
   background : #282;
-  -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
   border-radius: 20px;
   margin-bottom: 24px;
 }
@@ -681,7 +684,9 @@ table.schedule {
   opacity: 1;
   margin: 10px 10px 10px 0;
   padding: 10px;
-  -moz-border-radius: 5px 5px 5px 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
 }
 
 #speakers-tabs li:hover {
@@ -704,29 +709,30 @@ table.schedule {
 /* Buy button */
 
 .awesome{
-background: #222 url(/images/alert-overlay.png) repeat-x;
-display: inline-block;
-padding: 5px 10px 6px;
-color: #fff;
-text-decoration: none;
-font-weight: bold;
-line-height: 1;
--moz-border-radius: 10px;
--webkit-border-radius: 10px;
--moz-box-shadow: 0 1px 3px #999;
--webkit-box-shadow: 0 1px 3px #999;
--moz-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
--webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
-text-shadow: 0 -1px 1px rgba(0,0,0,0.25);
-border-bottom: 1px solid rgba(0,0,0,0.25);
-text-shadow: 0 -1px 1px #222;
-border-bottom: 1px solid #222;
-position: relative;
-cursor: pointer;
+  background: #222 url(/images/alert-overlay.png) repeat-x;
+  display: inline-block;
+  padding: 5px 10px 6px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  line-height: 1;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  -moz-box-shadow: 0 1px 3px #999;
+  -webkit-box-shadow: 0 1px 3px #999;
+  -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+  -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+  text-shadow: 0 -1px 1px rgba(0,0,0,0.25);
+  border-bottom: 1px solid rgba(0,0,0,0.25);
+  text-shadow: 0 -1px 1px #222;
+  border-bottom: 1px solid #222;
+  position: relative;
+  cursor: pointer;
 }
 
 .green.awesome {
-background-color: #91BD09;
+  background-color: #91BD09;
 }
 
 .banner_1 {
@@ -743,16 +749,16 @@ background-color: #91BD09;
 /* venue */
 
 .sexy-bullet-points li {
-list-style: disc;
-display: list-item;
+  list-style: disc;
+  display: list-item;
 }
 
 .sexy-bullet-points a {
-text-decoration: underline;
+  text-decoration: underline;
 }
 
 .sexy-bullet-points li:after {
-content: " ↓";
+  content: " ↓";
 }
 
 #organized-by {
