@@ -115,6 +115,7 @@ a {
   border-radius: 5px;
   -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
   -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+  box-shadow: 0 1px 3px rgba(0,0,0,0.5);
   text-shadow: 0 -1px 1px rgba(0,0,0,0.25);
   border-bottom: 1px solid rgba(0,0,0,0.25);
   position: relative;
@@ -294,6 +295,7 @@ header nav ul li a.current, header nav ul li:hover > a {
   border-radius: 5px;
   -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
   -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+  box-shadow: 0 1px 3px rgba(0,0,0,0.5);
 }
 .column_2 {
   float: left;
@@ -337,6 +339,7 @@ footer li a {
   border-radius: 5px;
   -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
   -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+  box-shadow: 0 1px 3px rgba(0,0,0,0.5);
   width: 100px;
 }
 .speakers img {
@@ -719,10 +722,9 @@ table.schedule {
   -moz-border-radius: 10px;
   -webkit-border-radius: 10px;
   border-radius: 10px;
-  -moz-box-shadow: 0 1px 3px #999;
-  -webkit-box-shadow: 0 1px 3px #999;
   -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
   -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+  box-shadow: 0 1px 3px rgba(0,0,0,0.5);
   text-shadow: 0 -1px 1px rgba(0,0,0,0.25);
   border-bottom: 1px solid rgba(0,0,0,0.25);
   text-shadow: 0 -1px 1px #222;
