@@ -414,37 +414,47 @@ img.keynote_pic {
   margin-left: 100px;
 }
 
-#sponsors {
+.sponsors, .gold-sponsors {
   background-color: white;
+  margin: 0 0 10px 0;
 
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
   border-radius: 5px;
   padding: 10px
 }
-#sponsors ul {
-  padding-top: 50px;
+
+.sponsors ul, .gold-sponsors ul {
+  margin-top: 10px;
 }
-#sponsors li {
+.sponsors li, .gold-sponsors li {
   text-align: center;
   margin: 50px 20px;
 }
-#sponsors img {
+.sponsors img, .gold-sponsors img {
   max-width: 120px;
-  margin: 0px;
+  margin: 0 auto;
 }
 
-#sponsors a.become_sponsor {
+.gold-sponsors {
+  border: 5px solid #91BD09;
+  -moz-box-shadow: 2px 1px 3px #999;
+  -webkit-box-shadow: 2px 1px 3px #999;
+  -moz-box-shadow: 2px 1px 3px rgba(0,0,0,0.5);
+  -webkit-box-shadow: 2px 1px 3px rgba(0,0,0,0.5);
+}
+
+.sponsors a.become_sponsor, .gold-sponsors a.become_sponsor {
   text-align: right;
   padding-right: 10px;
   color: #228822;
   font-weight: bold;
 }
-#sponsors a {
+.sponsors a, .gold-sponsors a {
   color: black;
   display: block;
 }
-#sponsors a:hover {
+.sponsors a:hover, .gold-sponsors a:hover {
   text-decoration: underline;
 }
 
