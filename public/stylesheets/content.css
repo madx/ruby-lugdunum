@@ -692,6 +692,13 @@ table.schedule {
   border-radius: 5px;
 }
 
+#speakers-tabs li a {
+
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+}
+
 #speakers-tabs li:hover {
   background-color: #35355E ;
 }
