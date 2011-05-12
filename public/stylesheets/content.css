@@ -151,7 +151,7 @@ header img {
 }
 nav ul {
   float: right;
-  margin-top: -100px;
+  margin-top: -120px;
 }
 nav li {
   position: relative;
@@ -775,6 +775,7 @@ table.schedule {
   position: relative;
   top: -10px;
   left: 355px;
+  display: inline;
 }
 
 #organized-by a {
