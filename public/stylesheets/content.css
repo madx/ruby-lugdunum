@@ -782,3 +782,8 @@ table.schedule {
   color: #ccc;
   text-decoration: underline;
 }
+
+/* Sponsors page */
+#speakers-tabs-people img {
+  width: 140px;
+}

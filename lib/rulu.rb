@@ -72,6 +72,10 @@ HTML
   get '/sponsoring' do
     show :sponsoring
   end
+  
+  get '/sponsors' do
+    show :sponsors
+  end
 
   private
   def show(page, layout = true)
