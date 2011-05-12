@@ -154,11 +154,9 @@ nav ul {
   margin-top: -100px;
 }
 nav li {
-  float: left;
   position: relative;
   font-size: 19px;
   list-style: none;
-  display: inline-block;
   letter-spacing: -1px;
   margin-left: 5px;
   padding-bottom: 5px;
