@@ -138,6 +138,12 @@ body {
   min-height: 700px;
   color: #fff;
 }
+
+header {
+/* needed for positioning */
+position: relative;
+}
+
 header img {
   float: left;
   margin-right: 27px;
@@ -767,15 +773,16 @@ table.schedule {
 
 #organized-by {
   color: #ccc;
-  margin: 0 0 -20px 0;
-  padding: 0;
-  position: relative;
-  top: -10px;
-  left: 355px;
-  display: inline;
+  position: absolute;
+  left: 515px;
 }
 
 #organized-by a {
-  color: #ccc;
+  color: inherit;
   text-decoration: underline;
+}
+
+#organized-by small {
+  position:relative;
+  top: -10px;
 }
