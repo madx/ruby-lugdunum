@@ -376,8 +376,7 @@ img.keynote_pic {
 .ui-tabs {
   position: relative;
   zoom: 1; }
-.ui-tabs .ui-tabs-nav li.ui-tabs-selected a, .ui-tabs .ui-tabs-nav li.ui-state-disabled a, .ui-tabs .ui-tabs-nav li.ui-state-processing a { cursor: text; }
-.ui-tabs .ui-tabs-nav li a, .ui-tabs.ui-tabs-collapsible .ui-tabs-nav li.ui-tabs-selected a { cursor: pointer; }
+
 .ui-tabs .ui-tabs-panel {
   background: none;
   border-width: 0;
@@ -684,7 +683,6 @@ table.schedule {
   border: 2px solid #FFFFFF;
   opacity: 1;
   margin: 10px 10px 10px 0;
-  padding: 10px;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
   border-radius: 5px;
@@ -692,9 +690,8 @@ table.schedule {
 
 #speakers-tabs li a {
 
-  width: 100%;
-  height: 100%;
-  display: inline-block;
+  padding: 10px;
+  display: block;
 }
 
 #speakers-tabs li:hover {
