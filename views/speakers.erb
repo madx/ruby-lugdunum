@@ -9,493 +9,242 @@
   </script>
 
   <div id="speakers-tabs">
-      <div >
+    <div id="tabs">
+      <ul>
+        <li><a href="#blake-mizerany"><h3>Blake Mizerany</h3></a></li>  
+        <li><a href="#bruno-michel"><h3>Bruno Michel</h3></a></li>
+        <li><a href="#elise-huard"><h3>Elise Huard</h3></a></li>
+        <li><a href="#hampton-catlin"><h3>Hampton Catlin</h3></a></li>
+  	    <li><a href="#joseph-wilk"><h3>Joseph Wilk</h3></a></li>
+        <li><a href="#joshua-wehner"><h3>Joshua Wehner</h3></a></li>
+        <li><a href="#michael-bensoussa"><h3>Michael Bensoussan</h3></a></li>
+        <li><a href="#nick-the-german-sutterer"><h3>Nick "The German" Sutterer</h3></a></li>
+        <li><a href="#r-konstantin-haase"><h3>R. Konstantin Haase</h3></a></li>
+        <li><a href="#sven-fuchs"><h3>Sven Fuchs</h3></a></li>
+    	</ul>
 
-  <div id="tabs">
-    <ul>
-      <li>
-        <a href="#michael-bensoussa">
-        <h3>
-          Michael Bensoussan
-        </h3>
-        </a>
-      </li>
-<!--
-      <li>
-        <a href="#lucas-dicioccio">
-        <h3>
-          Lucas DiCioccio
-        </h3>
-        </a>
-      </li>
-      <li>
-        <a href="#bruno-michel">
-        <h3>
-          Bruno Michel
-        </h3>
-        </a>
-      </li>
-      -->
-      <li>
-        <a href="#nick-the-german-sutterer">
-        <h3>
-          Nick "The German" Sutterer
-        </h3>
-        </a>
-      </li>
-      <li>
-        <a href="#elise-huard">
-    <h3>
-                  Elise Huard
-    </h3>
-        </a>
-      </li>
-      <li>
-        <a href="#r-konstantin-haase">
-    <h3>
-      R. Konstantin Haase
-    </h3>
-        </a>
-      </li>
-      <li>
-        <a href="#joshua-wehner">
-    <h3>
-      Joshua Wehner
-    </h3>
-        </a>
-      </li>
-<li>
-        <a href="#joseph-wilk">
-    <h3>
-      Joseph Wilk
-    </h3>
-        </a>
-      </li>
-      <li>
-        <a href="#blake-mizerany">
-    <h3>
-      Blake Mizerany
-    </h3>
-        </a>
-      </li>
+    	<div id="speakers-tabs-people" >
+      
+        <!-- START michael -->
+  	    <div id="michael-bensoussa" class="ui-tabs-panel ui-widget-content ui-corner-bottom">
+          <img src="/images/speakers/michael-bensoussan.jpeg" alt="michael-bensoussan">
+          <h3>Michael Bensoussan</h3>
+          <p><a href="https://github.com/mickey">@github</a> | <a href="http://twitter.com/mickeyben">@twitter</a> | <a href="http://letitcast.com"> @company</a></p>
+        
+          <div class="side_pres">
+            <h4 class="side_title">Bio</h4>
+          
+            <span class="summary">
+              <p>Michael is a ruby and rails enthusiast for 3 years now. He worked at various startups ; Eyeka, Seesmic and now Letitcast. Recently he had been giving Rails training in Paris for entrepreneurs and CS students. When not writing code, he can be found lost in a bookstore, losing himself in Paris or just in front of his screen waiting for the new Civ V patch.</p>
+            </span>
+            <h4 class="side_title">Abstract</h4>
 
-    </ul>
+            <h5 class="side_title">Service Oriented Applications</h5>
+            <span class="summary">
+              <p>Not completely define yet but I'll mostly talk about how we cut our monolythic application into a rails api, 3 rails clients, 2 sinatra services and a rails engine</p>
+            </span>
+          </div>
+        </div>
+        <!-- END michael -->
+      
+        <!-- START bruno -->
+        <div id="bruno-michel" class="ui-tabs-panel ui-widget-content ui-corner-bottom">
+          <img src="/images/speakers/bruno-michel.png" alt="">
+          <h3>Bruno Michel</h3>
+          <p><a href="https://github.com/nono">@github</a> | <a href="http://twitter.com/brmichel">@twitter</a></p>
+          <div class="side_pres">
+            <h4 class="side_title">Bio</h4>
+            <span class="summary">
+              <p>Lead developer at af83<br />Developer and administrator of LinuxFr.org popular website<br />President of Ruby France association</p>
+            </span>
+            <h4 class="side_title">Abstract</h4>
+            <h5 class="side_title">Goliath and his friends : Rack, EventMachine and Fibers</h5>
+            <span class="summary">
+              <p>Goliath is a event machine based. It uses Rack API and new features of Ruby 1.9.2. Both makes it really lightweight framework capable of processing asynchronously a large amount of data in an elegant way. It fit to write light web services as HTTP streaming file uploads, proxies, twitter, firehoses, etc.</p>
+            </span>
+          </div>
+        </div>
+        <!-- END bruno -->
 
+        <!-- START nick -->
+        <div id="nick-the-german-sutterer" class="ui-tabs-panel ui-widget-content ui-corner-bottom">
+          <img src="/images/speakers/nick-stterer.jpeg" alt="">
+          <h3>Nick "The German" Sutterer</h3>
+          <p><a href="https://github.com/apotonick">@github</a> | <a href="https://twitter.com/apotonick">@twitter</a></p>
+          <div class="side_pres">
+            <h4 class="side_title">Bio</h4>
+            <span class="summary">
+              <p>Nick Sutterer appreciates the beauty of elegant code, and the value of open source software. Through his tireless development and advocacy of the Cells and Apotomo gems, he has brought the concepts of component-oriented UI development to the world of Rails, proving that there should be no such thing as a double-render error, and that one need not be slave to the great monolithic view mentality. Also, he would like to have beer with you. </p>
+            </span>
+            <h4 class="side_title">Abstract</h4>
+            <h5 class="side_title">CRUD is not REST! Hypermedia for y'all!</h5>
+            <span class="summary">
+              <p>REST is an architectural style for distributed systems. However, many implementations forget about the distributed part of REST and simply map CRUD operations to HTTP verbs in a monolithic application. Hey, we want more! So let's have a look at the Roar gem and see how it helps working with representations, hypermedia, and decoupled architectures in Rails and Sinatra. While building both services and a consuming client we can discuss the sweet things about component-oriented architectures and french beer.</p>
+            </span>
+          </div>
+        </div>
+        <!-- END nick -->
 
-  <div id="speakers-tabs-people" >
-  <div id="michael-bensoussa" class="ui-tabs-panel ui-widget-content ui-corner-bottom">
-    <img src="/images/speakers/michael-bensoussan.jpeg" alt="michael-bensoussan">
-    <h3>Michael Bensoussan</h3>
-      <p>
-  <a href="https://github.com/mickey">
-    @github
-  </a>
-  |
-  <a href="http://twitter.com/mickeyben">
-    @twitter
-  </a>
-  |
-  <a href="http://letitcast.com">
-    @company
-  </a>
-      </p>
-    <div class="side_pres">
-      <h4 class="side_title">
-  Bio
-      </h4>
-      <span class="summary">
-        <p>
-  Michael is a ruby and rails enthusiast for 3 years now.
-  He worked at various startups ; Eyeka, Seesmic and now Letitcast.
-  Recently he had been giving Rails training in Paris for entrepreneurs
-  and CS students.
-  When not writing code, he can be found lost in a bookstore,
-  losing himself in Paris or just in front of his screen
-  waiting for the new Civ V patch.
-        </p>
-      </span>
-      <h4 class="side_title">
-  Abstract
-      </h4>
-      <h5 class="side_title">
-  Service Oriented Applications
-      </h5>
-      <span class="summary">
-        <p>
-    Not completely define yet but I'll mostly talk about how
-    we cut our monolythic application into a rails api,
-    3 rails clients, 2 sinatra services and a rails engine
-        </p>
-      </span>
+        <!-- START elise -->
+        <div id="elise-huard" class="ui-tabs-panel ui-widget-content ui-corner-bottom">
+          <img src="/images/speakers/elise-huard.jpeg" alt="elise-huard">
+          <h3>Elise Huard</h3>
+          <p><a href="https://github.com/elisehuard">@github</a> | <a href="http://jabberwocky.eu/">@web</a></p>
+          <div class="side_pres">
+            <h4 class="side_title">Bio</h4>
+            <span class="summary">
+              <p>After her studies in metallurgy, Elise realized job in that area were not her cup of tea, and she looked for jobs in an earlier interest, software.</p>
+              <p>Since then, she’s been rolling through jobs in C, C++, Java, a masters in AI, before falling in love with Ruby and going freelance. 10 years of software have helped her get a firm understanding on what works, what doesn’t, and what will make you cry blood and tears on nights before deadlines.</p>
+              <p>She’s a jack of all trades, loves reading, tinkering, food, travel, learning, and people out of the ordinary.</p>
+            </span>
+            <h4 class="side_title">Abstract</h4>
+            <h5 class="side_title">Ruby goes to Hollywood</h5>
+            <span class="summary">
+              <p>Computers are being built with more and more CPUs and those CPUs in turn have several cores. Powerful calculations are now performed either on many-cored machines, or on distributed systems. In this context, it's in the developer's interest to start thinking about concurrent programming. But concurrent programming with mutable is tricky. The last few years have conclusively shown that very few developers get this right when faced with conventional shared state threads.</p>
+              <p>One of the ways to simplify concurrent programming is the actor model. In the actor model, programs are made of actors sending each other messages, and acting on the messages they receive. The actors don't share any state.</p>
+              <p>In this talk I explore several ways to implement the actor model in Ruby.</p>
+              <p>The existing actor implementations in Ruby:
+              <dl>
+                <dd>- Rubinius actors</dd>
+                <dd>- Existing actor gems (cross Ruby implementations)</dd>
+              </dl>
+              </p>
+              <p>Actor implementations that are a little more 'out there':
+              <dl>
+                <dd>- Bindings with the Akka framework in Scala with JRuby</dd>
+                <dd>- Bindings with erlang, the first mainstream implementation of the actor model</dd>
+                <dd>- And their advantages and drawbacks, and code examples.</dd>
+              <dl>
+              </p>
+              <p>The talk will also allude to the fact that threads in Ruby should ideally have separate state, so that all programs using threads could also use the actor model (or other similar concurrency models).</p>
+            </span>
+          </div>
+        </div>
+        <!-- END elise -->
+      
+        <!-- START rkh -->
+        <div id="r-konstantin-haase" class="ui-tabs-panel ui-widget-content ui-corner-bottom">
+          <img src="/images/speakers/rkh2.jpg" alt="rkh2">
+          <h3>R. Konstantin Haase</h3>
+          <p><a href="https://github.com/rkh">@github</a> | <a href="http://twitter.com/konstantinhaase">@twitter</a></p>
+          <div class="side_pres">
+            <h4 class="side_title">Bio</h4>
+            <span class="summary">
+              <p>Ruby has become Konstantin Haase's language of choice since 2005. He therefore actively participates in the Ruby Open Source community and has contributed to different widespread projects, like Rubinius and Rack and is a member of the Sinatra core team. In 2010 he successfully took part as a student in the Ruby Summer Of Code, where he was working on Rails internals. Konstantin is currently studying IT Systems Engineering at Hasso Plattner Institute in Potsdam and works part time as a software engineer at finnlabs.</p>
+            </span>
+            <h4 class="side_title">Abstract</h4>
+            <h5 class="side_title">Real Time Rack</h5>
+            <span class="summary">
+              <p>At least since node.js everyone knows that real time HTTP responses are the next big thing. The secrets of handling incoming requests asynchronously with Ruby is not yet far spread among Rubyists, as the internals needed for such responses are neither specified nor documented and there is a lack of tools. Still, it is possible to use Server-Sent Events,  Websockets and akin with Rack today. This talk will demonstrate the underlying technologies and how to use them.</p>
+            </span>
+          </div>
+        </div>
+        <!-- END rkh -->
 
-    </div>
-  </div>
-  <!--
-  <div id="lucas-dicioccio" class="ui-tabs-panel ui-widget-content ui-corner-bottom">
+        <!-- START joshua -->
+        <div id="joshua-wehner" class="ui-tabs-panel ui-widget-content ui-corner-bottom">
+          <img src="/images/speakers/joshua-wehner.jpg" alt="">
+          <h3>Joshua Wehner</h3>
+          <p><a href="https://github.com/jaw6">@github</a> | <a href="http://twitter.com/jaw6">@twitter</a></p>
+          <div class="side_pres">
+            <h4 class="side_title">Bio</h4>
+            <span class="summary">
+              <p>Joshua is passionate about all the little things that make each of us weird. His wife taught him that Ruby doesn't solve everything. He speaks four languages badly, plays games often, enjoys puns more than he should, and occasionally makes a lovely soufflé.</p>
+            </span>
+            <h4 class="side_title">Abstract</h4>
+            <h5 class="side_title">KEYNOTE Must It Always Be About Sex?</h5>
+            <span class="summary">
+              <p>Why do some people keep talking about diversity? Who cares if we're all the same? So long as we're not technically discriminating against anyone, that means we're good, right? If we only get applications from white dudes, that must mean that white dudes are the only ones out there. Right? Right?</p>
+              <p>When we feel threatened, we find comfort among people who seem most like us. As specialization increases in the community, we glom on to people who look like us, talk like us, and think like us. There's safety in a crowd.</p>
+              <p>But there are real dangers in becoming too much alike: monotony breeds more monotony. Real innovation happens when you think different than everyone else. What happens when we ruthlessly eliminate different thinkers, as we winnow the stack of resumés to those that seem most likely to "fit in"?</p>
+              <p>Come to this talk to find out what you can do to diversify - yourself, your organization, and your peers - and how you can help grow a better, stronger, more diverse community.</p>
+            </span>
+          </div>
+        </div>
+        <!-- END joshua -->
 
+        <!-- START sven -->
+        <div id="sven-fuchs" class="ui-tabs-panel ui-widget-content ui-corner-bottom">
+          <img src="/images/speakers/sven-fuchs.jpeg" alt="">
+          <h3>Sven Fuchs</h3>
+          <p><a href="https://github.com/svenfuchs">@github</a> | <a href="http://twitter.com/svenfuchs">@twitter</a></p>
+          <div class="side_pres">
+            <h4 class="side_title">Bio</h4>
+            <span class="summary">
+              <p>Sven Fuchs, pronounced [sfɛn fʊks], is an experienced software developer and opensource enthusiast currently based in Berlin. While focussing on Ruby/Rails development for the last 4 years he published a good number of Ruby and Rails projects, tools and libraries. Consistently ranked amongst the top 30 on Rails ranking sites he is probably best known for leading the Ruby I18n project, the Ruby gem which is shipped with Rails to provide internationalization support. </p>
+            </span>
+            <h4 class="side_title">Abstract</h4>
+            <h5 class="side_title"></h5>
+            <span class="summary">
+              <p>To be defined</p>
+            </span>
+          </div>
+        </div>
+        <!-- END sven -->
 
-    <img src="/images/speakers/default.png" alt="">
-    <h3>Lucas DiCioccio</h3>
-      <p>
-  <a href="https://github.com/lucasdicioccio">
-    @github
-  </a>
-  |
-  <a href="http://twitter.com/lucasdicioccio">
-    @twitter
-  </a>
-      </p>
-    <div class="side_pres">
-      <h4 class="side_title">
-  Bio
-      </h4>
-      <span class="summary">
-        <p>
-Lucas DiCioccio is a French PhD student on home network measurements at Technicolor/LIP6, and a Ruby enthusiast. He recently released HomeNet Profiler, a ruby-everywhere (client, server, and data-analyses) measurement tool to collect data on home networks at end-host.
-Beforehand, he wrote Probecraft, a library to write packet-level active measurements, and Laborantin, an experiments management framework.
-In his past life, he graduated from a French/Italian engineer cursus, worked one year in a cellphone company.
-He likes network protocols, pretty code, data, and simplicity.
-        </p>
-      </span>
-      <h4 class="side_title">
-  Abstract
-      </h4>
-      <h5 class="side_title">
- Designing a network application: from TCPServer to Goliath
-      </h5>
-      <span class="summary">
-        <p>
-In this talk, we will look at the problem of handling concurrent requests in Ruby web servers. After a reharsal on network (TCP) programming, we will discuss two orthogonal problems in web servers: having a friendly APIs and managing concurrent access. Given this problem space, we will then navigate along the path of Ruby webservers' implementation. We will finish with Goliath, the more advanced solution.
-After the talk, attendees should have a comprehensive picture of networked application's design. They should be able to tell what to change in their code to make it more efficient.
-        </p>
-      </span>
+        <!-- START hampton -->
+        <div id="hampton-catlin" class="ui-tabs-panel ui-widget-content ui-corner-bottom">
+          <img src="/images/speakers/hampton-catlin.jpg" alt="">
+          <h3>Hampton Catlin</h3>
+          <p><a href="https://github.com/hcatlin">@github</a> | <a href="http://twitter.com/hcatlin">@twitter</a> | <a href="http://hamptoncatlin.com">@web</a></p>
+          <div class="side_pres">
+            <h4 class="side_title">Bio</h4>
+            <span class="summary">
+              <p>Hampton Catlin is the Framework Architect for Moovweb.com and is also the creator of several successful iPhone applications, including Dictionary! the #1 dictionary on iPhone and Palm Pre. Hampton is the man behind the current Wikipedia Mobile Gateway (m.wikipedia.org). He is also inventor of the Haml markup language and Sass, a CSS generating language.</p>
+            </span>
+            <h4 class="side_title">Abstract</h4>
+            <h5 class="side_title">What do American Airlines, Farmville, and Wikipedia have in common?</h5>
+            <span class="summary">
+              <p>They all use several different game play mechanics to encourage addictive behaviours in their users and customers. Being a developer is much more than writing nice code... its about building an experience for your users. And, part of that is using gameplay to make sure your users have a great time and come back again.</p>
+              <p>Even if you never thought of what your building as being a game, I'll help show you that it gameplay is part of every life experience and is coded into our DNA.</p>
+              <p>To crack the code of what works and what doesn't, we need to look towards evolutionary behaviouralism as a guide. Over millions of years we have been trained to follow certain basic social behaviours and if you understand those behaviours, you can use them to give your users a very positive experience.</p>
+              <p>Some of the talk will be scientific, but a lot of it will highlight real usable techniques to get the desired effects. I hope to guide everyone through a lot of examples and analysis of companies where they went right ... and where they failed."</p>
+            </span>
+          </div>
+        </div>
+        <!-- END hampton -->
 
-    </div>
+        <!-- START joseph-->      
+        <div id="joseph-wilk" class="ui-tabs-panel ui-widget-content ui-corner-bottom">
+          <img src="/images/speakers/joseph-wilk.jpeg" alt="">
+          <h3>Joseph Wilk</h3>
+          <p><a href="https://github.com/josephwilk">@github</a> | <a href="http://twitter.com/josephwilk">@twitter</a></p>
+          <div class="side_pres">
+            <h4 class="side_title">Bio</h4>
+            <span class="summary">
+              <p>Joseph Wilk is a member of the core development team for Cucumber. He has been developing for the web for 11 years in both big and small companies and as an entrepreneur. After stints working with Java and Python he finally found Ruby. Since then he has become a regular speaker at various Ruby conferences around the world. He spends his time in-between eating Cucumbers and travelling, working at Songkick.com. Having more fun than is healthy working as a Software Gardener building web systems and working on open source projects. He suffers from test obsession and has given up hope of any treatment.</p>
+            </span>
+            <h4 class="side_title">Abstract</h4>
+            <h5 class="side_title">The Limited Red Society</h5>
+            <span class="summary">
+              <p>During an hour of programming what do you learn about your performance? How did that last refactoring go? How does that hour compare to the previous hour? How about against last week or last month? How are your habits as a programmer improving? How does your refactoring pattern differ from a masters like Martin Fowlers?</p>
+              <p>Professional Tennis players learn from detailed statistics about how they performed in a game and use this information to become better players.</p>
+              <p>Why don't we do the same in Programming? I want to demonstrate how we can, especially how we as individual programmers can help limit the time we spend in the red (failing tests) while developing. How long we spend in the red and how often can reflect on how we are working as programmers. Joshua Kerievsky created ""The Limited Red Society"", a group of practitioners that have learned how to effectively reduce red time while test-driving and refactoring code. I want to introduce this society to the Ruby world and some of the tools and ideas I have been working on.</p>
+              <p>We can gain detailed insight into your programming patterns while using a TDD flow by recording the state of your tests every time you run them. From these detailed metrics we can start to visualise how you work. How long did we spend in the red with that failed test? Was that test we wrote too big a step leaving us stuck in the red for too long? Did we spend a long time in the red because we were shaving a Yak? How many unit tests did we just break with that last change?</p>
+            </span>
+          </div>
+        </div>
+        <!-- END joseph-->      
 
-
-  </div>
-  <div id="bruno-michel" class="ui-tabs-panel ui-widget-content ui-corner-bottom">
-
-  <img src="/images/speakers/default.png" alt="">
-    <h3>Bruno Michel</h3>
-      <p>
-  <a href="https://github.com/nono">
-    @github
-  </a>
-  |
-  <a href="http://twitter.com/brmichel">
-    @twitter
-  </a>
-      </p>
-    <div class="side_pres">
-      <h4 class="side_title">
-  Bio
-      </h4>
-      <span class="summary">
-        <p>
-Lead developer chez af83
-Développeur et administrateur du site LinuxFr.org
-Membre du conseil d'administration de l'association Ruby France (et peut-être président bientôt)
-        </p>
-      </span>
-      <h4 class="side_title">
-  Abstract
-      </h4>
-      <h5 class="side_title">
-Goliath et ses amis Rack, EventMachine et Fibers
-      </h5>
-      <span class="summary">
-        <p>
-Goliath est un framework Ruby basé sur EventMachine, qui utilise l'API de Rack et tire parti des fibres de Ruby 1.9. Cela en fait un framework léger, capable d'offrir d'excellentes performances et de traiter de manières asynchrones de nombreuses entrées/sorties, le tout de manière très élégante. Il convient donc très bien pour écrire des petits services web : uploads de fichiers en streaming HTTP, firehose à la Twitter, proxy divers et variés...
-        </p>
-      </span>
-
-    </div>
-  </div>
-  -->
-  <div id="nick-the-german-sutterer" class="ui-tabs-panel ui-widget-content ui-corner-bottom">
-    <img src="/images/speakers/nick-stterer.jpeg" alt="nick-stterer">
-    <h3>
-       Nick "The German" Sutterer
-    </h3>
-      <p>
-  <a href="https://github.com/apotonick">
-    @github
-  </a>
-  |
-  <a href="http://twitter.com/apotonick">
-    @twitter
-  </a>
-  |
-  <a href="http://apotomo.de">
-    @web
-  </a>
-      </p>
-    <div class="side_pres">
-      <h4 class="side_title">
-  Bio
-      </h4>
-      <span class="summary">
-        <p>
-Nick Sutterer appreciates the beauty of elegant code, and the value of open source software. Through his tireless development and advocacy of the Cells and Apotomo gems, he has brought the concepts of component-oriented UI development to the world of Rails, proving that there should be no such thing as a double-render error, and that one need not be slave to the great monolithic view mentality. Also, he would like to have beer with you.
-        </p>
-      </span>
-      <h4 class="side_title">
-  Abstract
-      </h4>
-      <h5 class="side_title">
-CRUD is not REST! Hypermedia for y'all!
-      </h5>
-      <span class="summary">
-        <p>
-REST is an architectural style for distributed systems. However, many implementations forget about the distributed part of REST and simply map CRUD operations to HTTP verbs in a monolithic application. Hey, we want more! So let's have a look at the Roar gem and see how it helps working with representations, hypermedia, and decoupled architectures in Rails and Sinatra. While building both services and a consuming client we can discuss the sweet things about component-oriented architectures and french beer.
-        </p>
-      </span>
-
-    </div>
-  </div>
-  <div id="elise-huard" class="ui-tabs-panel ui-widget-content ui-corner-bottom">
-    <img src="/images/speakers/elise-huard.jpeg" alt="elise-huard">
-    <h3>Elise Huard</h3>
-      <p>
-  <a href="https://github.com/elisehuard">
-    @github
-  </a>
-  |
-  <a href="http://jabberwocky.eu/">
-    @blog
-  </a>
-      </p>
-    <div class="side_pres">
-      <h4 class="side_title">
-  Bio
-      </h4>
-      <span class="summary">
-        <p>
-After her studies in metallurgy, Elise realized job in that area were not her cup of tea, and she looked for jobs in an earlier interest, software.
-        </p>
-        <p>
-Since then, she’s been rolling through jobs in C, C++, Java, a masters in AI, before falling in love with Ruby and going freelance. 10 years of software have helped her get a firm understanding on what works, what doesn’t, and what will make you cry blood and tears on nights before deadlines.
-        </p>
-        <p>
-She’s a jack of all trades, loves reading, tinkering, food, travel, learning, and people out of the ordinary.
-        </p>
-      </span>
-      <h4 class="side_title">
-  Abstract
-      </h4>
-      <h5 class="side_title">
-Ruby goes to Hollywood
-      </h5>
-      <span class="summary">
-        <p>
-Computers are being built with more and more CPUs and those CPUs in turn have several cores. Powerful calculations are now performed either on many-cored machines, or on distributed systems.
-In this context, it's in the developer's interest to start thinking about concurrent programming. But concurrent programming with mutable is tricky. The last few years have conclusively shown that very few developers get this right when faced with conventional shared state threads.
-        </p>
-        <p>
-One of the ways to simplify concurrent programming is the actor model.
-In the actor model, programs are made of actors sending each other messages, and acting on the messages they receive. The actors don't share any state.
-        </p>
-        <p>
-In this talk I explore several ways to implement the actor model in Ruby.
-        </p>
-        <p>
-The existing actor implementations in Ruby:
-- Rubinius actors
-- existing actor gems (cross Ruby implementations)
-Actor implementations that are a little more 'out there':
-- bindings with the Akka framework in Scala with JRuby
-- bindings with erlang, the first mainstream implementation of the actor model
-And their advantages and drawbacks, and code examples.
-        </p>
-        <p>
-The talk will also allude to the fact that threads in Ruby should ideally have separate state, so that all programs using threads could also use the actor model (or other similar concurrency models).
-        </p>
-      </span>
-
-    </div>
-  </div>
-  <div id="r-konstantin-haase" class="ui-tabs-panel ui-widget-content ui-corner-bottom">
-    <img src="/images/speakers/rkh2.jpg" alt="rkh2">
-    <h3>R. Konstantin Haase</h3>
-
-
-      <p>
-  <a href="https://github.com/rkh">
-    @github
-  </a>
-  |
-  <a href="http://twitter.com/konstantinhaase">
-    @twitter
-  </a>
-
-      </p>
-    <div class="side_pres">
-      <h4 class="side_title">
-  Bio
-      </h4>
-      <span class="summary">
-        <p>
-Ruby has become Konstantin Haase's language of choice since 2005. He therefore actively participates in the Ruby Open Source community and has contributed to different widespread projects, like Rubinius and Rack and is a member of the Sinatra core team. In 2010 he successfully took part as a student in the Ruby Summer Of Code, where he was working on Rails internals. Konstantin is currently studying IT Systems Engineering at Hasso Plattner Institute in Potsdam and works part time as a software engineer at finnlabs.
-        </p>
-      </span>
-      <h4 class="side_title">
-  Abstract
-      </h4>
-      <h5 class="side_title">
-Real Time Rack
-      </h5>
-      <span class="summary">
-        <p>
-At least since node.js everyone knows that real time HTTP responses are the next big thing. The secrets of handling incoming requests asynchronously with Ruby is not yet far spread among Rubyists, as the internals needed for such responses are neither specified nor documented and there is a lack of tools. Still, it is possible to use Server-Sent Events,  Websockets and akin with Rack today. This talk will demonstrate the underlying technologies and how to use them.
-        </p>
-      </span>
-
-    </div>
-  </div>
-  <div id="joshua-wehner" class="ui-tabs-panel ui-widget-content ui-corner-bottom">
-
-    <img src="/images/speakers/joshua-wehner.jpg" alt="">
-    <h3>Joshua Wehner</h3>
-      <p>
-  <a href="https://github.com/">
-    @github
-  </a>
-  |
-  <a href="http://twitter.com/">
-    @twitter
-  </a>
-      </p>
-    <div class="side_pres">
-      <h4 class="side_title">
-  Bio
-      </h4>
-      <span class="summary">
-        <p>
-Joshua is passionate about all the little things that make each of us weird. His wife taught him that Ruby doesn't solve everything. He speaks four languages badly, plays games often, enjoys puns more than he should, and occasionally makes a lovely soufflé.
-        </p>
-      </span>
-      <h4 class="side_title">
-  Abstract
-      </h4>
-      <h5 class="side_title">
-KEYNOTE Must It Always Be About Sex?
-      </h5>
-      <span class="summary">
-        <p>
-Why do some people keep talking about diversity? Who cares if we're all the same? So long as we're not technically discriminating against anyone, that means we're good, right? If we only get applications from white dudes, that must mean that white dudes are the only ones out there. Right? Right?
-
-When we feel threatened, we find comfort among people who seem most like us. As specialization increases in the community, we glom on to people who look like us, talk like us, and think like us. There's safety in a crowd.
-
-But there are real dangers in becoming too much alike: monotony breeds more monotony. Real innovation happens when you think different than everyone else. What happens when we ruthlessly eliminate different thinkers, as we winnow the stack of resumés to those that seem most likely to "fit in"?
-
-Come to this talk to find out what you can do to diversify - yourself, your organization, and your peers - and how you can help grow a better, stronger, more diverse community.
-        </p>
-      </span>
-
-    </div>
-
-  </div>
-
-
-
-
-
-
-
-  <div id="joseph-wilk" class="ui-tabs-panel ui-widget-content ui-corner-bottom">
-
-    <img src="/images/speakers/joseph-wilk.jpeg" alt="joseph-wilk">
-    <h3>Joseph Wilk</h3>
-      <p>
-  <a href="https://github.com/josephwilk">
-    @github
-  </a>
-  |
-  <a href="http://twitter.com/josephwilk">
-    @twitter
-  </a>
-      </p>
-    <div class="side_pres">
-      <h4 class="side_title">
-  Bio
-      </h4>
-      <span class="summary">
-        <p>
-Joseph Wilk is a member of the core development team for Cucumber. He has been developing for the web for 11 years in both big and small companies and as an entrepreneur. After stints working with Java and Python he finally found Ruby. Since then he has become a regular speaker at various Ruby conferences around the world. He spends his time in-between eating Cucumbers and travelling, working at Songkick.com. Having more fun than is healthy working as a Software Gardener building web systems and working on open source projects. He suffers from test obsession and has given up hope of any treatment.
-        </p>
-      </span>
-      <h4 class="side_title">
-  Abstract
-      </h4>
-      <h5 class="side_title">
-The Limited Red Society
-      </h5>
-      <span class="summary">
-        <p>
-During an hour of programming what do you learn about your performance? How did that last refactoring go? How does that hour compare to the previous hour? How about against last week or last month? How are your habits as a programmer improving? How does your refactoring pattern differ from a masters like Martin Fowlers?
-<p></p>
-Professional Tennis players learn from detailed statistics about how they performed in a game and use this information to become better players.
-<p></p>
-Why don't we do the same in Programming? I want to demonstrate how we can, especially how we as individual programmers can help limit the time we spend in the red (failing tests) while developing. How long we spend in the red and how often can reflect on how we are working as programmers. Joshua Kerievsky created "The Limited Red Society", a group of practitioners that have learned how to effectively reduce red time while test-driving and refactoring code. I want to introduce this society to the Ruby world and some of the tools and ideas I have been working on.
-<p></p>
-We can gain detailed insight into your programming patterns while using a TDD flow by recording the state of your tests every time you run them. From these detailed metrics we can start to visualise how you work. How long did we spend in the red with that failed test? Was that test we wrote too big a step leaving us stuck in the red for too long? Did we spend a long time in the red because we were shaving a Yak? How many unit tests did we just break with that last change?
-        </p>
-      </span>
-
-    </div>
-
-  </div>
-
-
-
-  <div id="blake-mizerany" class="ui-tabs-panel ui-widget-content ui-corner-bottom">
-
-    <img src="/images/speakers/blake-mizerany.png" alt="blake-mizerany">
-    <h3>Blake Mizerany</h3>
-      <p>
-  <a href="https://github.com/bmizerany">
-    @github
-  </a>
-  |
-  <a href="http://twitter.com/bmizerany">
-    @twitter
-  </a>
-      </p>
-    <div class="side_pres">
-      <h4 class="side_title">
-  Bio
-      </h4>
-      <span class="summary">
-        <p>
-I created Sinatra (www.sinatrarb.com) and co-created Doozer (http://github.com/ha/doozerd). I saw Elvis at a gas station the other day.  I speak Ruby, Go, Erlang, JavaScript, C, C++, and more.  My preferred form of transportation is Git.  Heroku (heroku.com) is where I hang my hat.  My Mom thinks I'm totally awesome.  You didn't see me.
-        </p>
-      </span>
-      <h4 class="side_title">
-  Abstract
-      </h4>
-      <h5 class="side_title">
-On Distributed Failures
-      </h5>
-      <span class="summary">
-        <p>
-In unreliable networks, with unreliable processors (also known as "The Cloud") one must know all the ways their thing can fail;   And just as importantly, how to recover.  It is even better to have the ability to recover in an automated way.  I'll go over the common failure conditions in distributed systems, and then introduce you to Doozer, the highly-available, consistant data store that makes recovering from these problems easy.
-        </p>
-      </span>
-
-    </div>
-
-  </div>
-
-
-
-
-
-
-
-
-
- </div>
+        <!-- START blake -->
+        <div id="blake-mizerany" class="ui-tabs-panel ui-widget-content ui-corner-bottom">
+          <img src="/images/speakers/blake-mizerany.png" alt="">
+          <h3>Blake Mizerany</h3>
+          <p><a href="https://github.com/bmizerany">@github</a> | <a href="http://twitter.com/bmizerany">@twitter</a> | <a href="http://itsbonus.heroku.com">@web</a></p>
+          <div class="side_pres">
+            <h4 class="side_title">Bio</h4>
+            <span class="summary">
+              <p>I created Sinatra (www.sinatrarb.com) and co-created Doozer (http://github.com/ha/doozerd). I saw Elvis at a gas station the other day.  I speak Ruby, Go, Erlang, JavaScript, C, C++, and more.  My preferred form of transportation is Git.  Heroku (heroku.com) is where I hang my hat.  My Mom thinks I'm totally awesome.  You didn't see me.</p>
+            </span>
+            <h4 class="side_title">Abstract</h4>
+            <h5 class="side_title">On Distributed Failures</h5>
+            <span class="summary">
+              <p>In unreliable networks, with unreliable processors (also known as "The Cloud") one must know all the ways their thing can fail;   And just as importantly, how to recover.  It is even better to have the ability to recover in an automated way.  I'll go over the common failure conditions in distributed systems, and then introduce you to Doozer, the highly-available, consistant data store that makes recovering from these problems easy.</p>
+            </span>
+          </div>
+        </div>
+        <!-- END blake -->
+        
       </div>
     </div>
   </div>
