@@ -41,7 +41,7 @@ HTML
       tab, name = tab_info
       current = ""
       if request.path_info == tab
-        current = "class='current'" 
+        current = "class='current'"
       end
       <<HTML
       <li>
@@ -71,6 +71,10 @@ HTML
 
   get '/sponsoring' do
     show :sponsoring
+  end
+
+  get '/imprint' do
+    show :imprint
   end
 
   private
