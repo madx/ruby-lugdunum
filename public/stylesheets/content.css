@@ -776,6 +776,15 @@ table.schedule {
   content: " ↓";
 }
 
+.sexy-bullet-points-jm-sucks-at-css li {
+  list-style: disc;
+  display: list-item;
+}
+
+.sexy-bullet-points-jm-sucks-at-css a {
+  text-decoration: underline;
+}
+
 #organized-by {
   color: #ccc;
   position: absolute;
