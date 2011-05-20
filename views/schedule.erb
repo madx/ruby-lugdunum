@@ -30,34 +30,41 @@
       </th>
       <td>
         Welcome and introductions
-        <br>Mysterious MC<br>
       </td>
     </tr>
 
-    <%= speaker "9:30", "Joshua Wehner", "wehner", "KEYNOTE Must It Always Be About Sex?" %>
-    <%= break_helper "10:00" %>
+    <%= speaker "9:30", "10:00",
+      "Joshua Wehner", "joshua-wehner", "Must It Always Be About Sex? (Keynote)" %>
 
-    <%= speaker "10:15", "TBD", "", "TBD" %>
-    <%= break_helper "11:00" %>
+    <%= break_helper %>
 
-    <%= speaker "11:15", "TBD", "mizerany", "TBD" %>
+    <%= speaker "10:15", "11:00",
+      "Nick Sutterer", "nick-the-german-sutterer", "CRUD is not REST! Hypermedia for y'all!" %>
+
+    <%= break_helper %>
+
+    <%= speaker "11:15", "12:00",
+      "R. Konstantin Haase", "r-konstantin-haase", "Real Time Rack" %>
 
     <tr class="three_row">
-      <th>
-        12:00
-      </th>
+      <th></th>
       <td class="break">
-        Pinic for connoisseurs
+        Picnic
       </td>
     </tr>
 
-    <%= speaker "14:00", "TBD", "huard", "TBD" %>
-    <%= break_helper "14:45" %>
+    <%= speaker "14:00", "14:45",
+      "Joseph Wilk", "joseph-wilk", "The Limited Red Society" %>
 
-    <%= speaker "15:15", "TBD", "wehner", "TBD" %>
-    <%= break_helper "16:00" %>
+    <%= break_helper %>
 
-    <%= speaker "16:30", "TBD", "wehner", "TBD" %>
+    <%= speaker "15:00", "15:45",
+      "Blake Mizerany", "blake-mizerany", "On Distributed Failures" %>
+
+    <%= break_helper %>
+
+    <%= speaker "16:00", "16:45",
+      "TBD", "", "TBD" %>
 
     <!--<tr class="three_row">-->
       <!--<th>-->
@@ -87,14 +94,47 @@
     <tbody>
     <tr class="three_row">
       <th>
-        9:00
+        9:00 - 9:30
       </th>
       <td class="break">
         Breakfast
       </td>
     </tr>
 
-    <%= speaker "10:00", "Lightning talks, more talks, Hackfest ...", "", "TBD" %>
+
+    <%= speaker "9:30", "10:00",
+      "Élise Huard", "elise-huard", "Ruby goes to Hollywood" %>
+
+    <%= break_helper %>
+
+    <%= speaker "10:15", "11:00",
+      "Michael Bensoussan", "michael-bensoussan", "Service Oriented Applications" %>
+
+    <%= break_helper %>
+
+    <%= speaker "11:15", "12:00",
+      "Bruno Michel", "bruno-michel", "Goliath and his friends : Rack, EventMachine and Fibers" %>
+
+    <tr class="three_row">
+      <th></th>
+      <td class="break">
+      Lunch
+      </td>
+    </tr>
+
+    <%= speaker "14:00", "14:45",
+      "TBD", "", "TBD" %>
+
+    <%= break_helper %>
+
+    <%= speaker "15:00", "15:45",
+      "Sven Fuchs", "sven-fuchs", "Travis CI" %>
+
+    <%= break_helper %>
+
+    <%= speaker "16:00", "16:45",
+      "Hampton Catlin", "hampton-catlin", "What do American Airlines, Farmville, and Wikipedia have in common?" %>
+
 
     </tbody>
 

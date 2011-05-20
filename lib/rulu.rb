@@ -8,28 +8,25 @@ class Rulu < Sinatra::Base
   set :static, true
 
   helpers do
-    def speaker(time, name, link, talk)
+    def speaker(start_time, end_time, speaker_name, speaker_link, talk)
       <<HTML
       <tr class="two_row">
         <th>
-          #{time}
+          #{start_time} - #{end_time}
         </th>
         <td>
-          <a href="#">#{name}</a>
-          <br>
-          #{talk}
+          <p><a href="#">#{speaker_name}</a></p>
+          <p>#{talk}</p>
         </td>
       </tr>
 HTML
     end
 
 
-    def break_helper(time)
+    def break_helper
       <<HTML
       <tr class="one_row">
-        <th>
-          #{time}
-        </th>
+        <th></th>
         <td class="break">
           Break
         </td>
@@ -41,7 +38,7 @@ HTML
       tab, name = tab_info
       current = ""
       if request.path_info == tab
-        current = "class='current'" 
+        current = "class='current'"
       end
       <<HTML
       <li>
@@ -75,6 +72,10 @@ HTML
   
   get '/sponsors' do
     show :sponsors
+  end
+
+  get '/imprint' do
+    show :imprint
   end
 
   private

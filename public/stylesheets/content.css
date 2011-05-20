@@ -138,6 +138,12 @@ body {
   min-height: 700px;
   color: #fff;
 }
+
+header {
+/* needed for positioning */
+position: relative;
+}
+
 header img {
   float: left;
   margin-right: 27px;
@@ -376,8 +382,7 @@ img.keynote_pic {
 .ui-tabs {
   position: relative;
   zoom: 1; }
-.ui-tabs .ui-tabs-nav li.ui-tabs-selected a, .ui-tabs .ui-tabs-nav li.ui-state-disabled a, .ui-tabs .ui-tabs-nav li.ui-state-processing a { cursor: text; }
-.ui-tabs .ui-tabs-nav li a, .ui-tabs.ui-tabs-collapsible .ui-tabs-nav li.ui-tabs-selected a { cursor: pointer; }
+
 .ui-tabs .ui-tabs-panel {
   background: none;
   border-width: 0;
@@ -436,8 +441,12 @@ img.keynote_pic {
   margin: 50px 20px;
 }
 .sponsors img, .gold-sponsors img {
-  max-width: 120px;
+  max-width: 200px;
   margin: 0 auto;
+}
+
+img.bigger-logo {
+  max-width: 230px;
 }
 
 .gold-sponsors {
@@ -516,16 +525,16 @@ img.keynote_pic {
   width: 300px;
   margin: 20px auto;
   padding: 10px;
-  
+
   border: 1px solid #FFFFFF;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
   border-radius: 5px;
-  
+
   -moz-box-shadow: 5px 5px 10px #000;
   -webkit-box-shadow: 5px 5px 10px #000;
   box-shadow: 5px 5px 10px #000;
-  
+
   background-color: #7A0345;
   background-image: -webkit-gradient(
       linear,
@@ -642,6 +651,7 @@ table.schedule {
 .schedule th {
   background: #1B1D23;
   color: #fff;
+  width: 120px;
 }
 
 .schedule td.break {
@@ -656,7 +666,7 @@ table.schedule {
 .schedule td {
   border-bottom: 1px solid #aaa;
   padding: 4px;
-  width: 86%;
+  width: 480px;
 }
 
 .schedule td a {
@@ -684,7 +694,6 @@ table.schedule {
   border: 2px solid #FFFFFF;
   opacity: 1;
   margin: 10px 10px 10px 0;
-  padding: 10px;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
   border-radius: 5px;
@@ -692,9 +701,8 @@ table.schedule {
 
 #speakers-tabs li a {
 
-  width: 100%;
-  height: 100%;
-  display: inline-block;
+  padding: 10px;
+  display: block;
 }
 
 #speakers-tabs li:hover {
@@ -768,19 +776,29 @@ table.schedule {
   content: " ↓";
 }
 
+.sexy-bullet-points-jm-sucks-at-css li {
+  list-style: disc;
+  display: list-item;
+}
+
+.sexy-bullet-points-jm-sucks-at-css a {
+  text-decoration: underline;
+}
+
 #organized-by {
   color: #ccc;
-  margin: 0 0 -20px 0;
-  padding: 0;
-  position: relative;
-  top: -10px;
-  left: 355px;
-  display: inline;
+  position: absolute;
+  left: 515px;
 }
 
 #organized-by a {
-  color: #ccc;
+  color: inherit;
   text-decoration: underline;
+}
+
+#organized-by small {
+  position:relative;
+  top: -10px;
 }
 
 /* Sponsors page */
