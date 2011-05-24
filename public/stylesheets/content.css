@@ -625,10 +625,10 @@ table.schedule {
   width: 600px;
 }
 
-.one_row tr, .one_row td { height: 30px; }
-.two_row tr, .two_row td { height: 60px; }
-.three_row tr, .three_row td { line-height: 90px; }
-.four_row tr, .four_row td {  line-height: 120px; }
+.one_row tr, .one_row td { height: 25px; }
+.two_row tr, .two_row td { height: 50px; }
+.three_row tr, .three_row td { line-height: 75px; }
+.four_row tr, .four_row td {  line-height: 100px; }
 
 .schedule td, .schedule th {
   border-right: 1px solid #aaa;
