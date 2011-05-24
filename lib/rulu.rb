@@ -54,6 +54,7 @@ HTML
     show :index
   end
 
+  # TODO Sinatra can't be DRYer than this?
   get '/schedule' do
     show :schedule
   end
