@@ -6,19 +6,29 @@
     $(function() {
       $( "#tabs" ).tabs();
     });
+
+
+    $(document).ready(function() {
+      if($("#tabs") && document.location.hash){
+	$(window).scrollTop(0);
+      }
+    });
+
+
+
   </script>
 
   <div id="speakers-tabs">
     <div id="tabs">
       <ul>
-        <li><a href="#blake-mizerany"><h3>Blake Mizerany</h3></a></li>  
-        <li><a href="#bruno-michel"><h3>Bruno Michel</h3></a></li>
-        <li><a href="#elise-huard"><h3>Élise Huard</h3></a></li>
-        <li><a href="#hampton-catlin"><h3>Hampton Catlin</h3></a></li>
-        <li><a href="#joseph-wilk"><h3>Joseph Wilk</h3></a></li>
-        <li><a href="#joshua-wehner"><h3>Joshua Wehner</h3></a></li>
-        <li><a href="#michael-bensoussan"><h3>Michael Bensoussan</h3></a></li>
-        <li><a href="#nick-the-german-sutterer"><h3>Nick "The German" Sutterer</h3></a></li>
+	<li><a href="#blake-mizerany" class="tab"><h3>Blake Mizerany</h3></a></li>  
+	<li><a href="#bruno-michel" class="tab"><h3>Bruno Michel</h3></a></li>
+	<li><a href="#elise-huard" class="tab"><h3>Élise Huard</h3></a></li>
+        <li><a href="#hampton-catlin" class="tab"><h3>Hampton Catlin</h3></a></li>
+        <li><a href="#joseph-wilk" class="tab"><h3>Joseph Wilk</h3></a></li>
+        <li><a href="#joshua-wehner" class="tab"><h3>Joshua Wehner</h3></a></li>
+        <li><a href="#michael-bensoussan" class="tab"><h3>Michael Bensoussan</h3></a></li>
+        <li><a href="#nick-the-german-sutterer" class="tab"><h3>Nick "The German" Sutterer</h3></a></li>
         <li><a href="#r-konstantin-haase"><h3>R. Konstantin Haase</h3></a></li>
         <li><a href="#sven-fuchs"><h3>Sven Fuchs</h3></a></li>
       </ul>
