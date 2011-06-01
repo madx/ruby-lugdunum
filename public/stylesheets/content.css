@@ -89,8 +89,7 @@ p {
   text-align: justify;
 }
 a {
-  color: #fff;
-  text-decoration: none;
+  color: inherit;
 }
 /* Buttons */
 .fl_width_button {
@@ -703,6 +702,7 @@ table.schedule {
 
   padding: 10px;
   display: block;
+  text-decoration:none;
 }
 
 #speakers-tabs li:hover {
