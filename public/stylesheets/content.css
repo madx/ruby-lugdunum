@@ -46,7 +46,7 @@ header h2 {
   letter-spacing: -3px;
 }
 
-header h3 {
+header h3, .big {
   font-size: 42px;
   line-height: 36px;
   color: #A9A9A9;
