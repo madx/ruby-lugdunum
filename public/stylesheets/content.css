@@ -32,6 +32,28 @@ figure img {width: 100%;}
   margin-right: 10px;
 }
 
+header h1 {
+  font-size: 68px;
+  line-height: 72px;
+  letter-spacing: -5px;
+  color: #1B1D23;
+}
+
+header h2 {
+  font-size: 42px;
+  line-height: 48px;
+  color: #1B1D23;
+  letter-spacing: -3px;
+}
+
+header h3 {
+  font-size: 42px;
+  line-height: 36px;
+  color: #A9A9A9;
+  display: inline;
+  letter-spacing: -3px;
+}
+
 .normal, body {
   font: 16px/24px Helvetica, Arial, sans-serif;
 }
