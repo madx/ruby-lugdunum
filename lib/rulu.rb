@@ -71,8 +71,8 @@ HTML
     show :sponsoring
   end
 
-  get '/imprint' do
-    show :imprint
+  get '/legal' do
+    show :legal
   end
 
   private
