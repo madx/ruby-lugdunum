@@ -800,3 +800,7 @@ table.schedule {
   position:relative;
   top: -10px;
 }
+
+.venue .photo {
+display:block;
+}
