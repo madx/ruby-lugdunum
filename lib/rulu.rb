@@ -15,7 +15,7 @@ class Rulu < Sinatra::Base
           #{start_time} - #{end_time}
         </th>
         <td>
-          <p><a href="#">#{speaker_name}</a></p>
+          <p><a href="speakers##{speaker_link}">#{speaker_name}</a></p>
           <p>#{talk}</p>
         </td>
       </tr>
@@ -54,6 +54,7 @@ HTML
     show :index
   end
 
+  # TODO Sinatra can't be DRYer than this?
   get '/schedule' do
     show :schedule
   end
@@ -74,8 +75,8 @@ HTML
     show :sponsors
   end
 
-  get '/imprint' do
-    show :imprint
+  get '/legal' do
+    show :legal
   end
 
   private

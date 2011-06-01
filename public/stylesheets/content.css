@@ -32,35 +32,26 @@ figure img {width: 100%;}
   margin-right: 10px;
 }
 
-.gigantic {
-  font-size: 110px;
-  line-height: 120px;
-  letter-spacing: -2px;
-}
-
-.huge, h1 {
+header h1 {
   font-size: 68px;
   line-height: 72px;
   letter-spacing: -5px;
   color: #1B1D23;
 }
 
-.large, h2 {
+header h2 {
   font-size: 42px;
   line-height: 48px;
   color: #1B1D23;
   letter-spacing: -3px;
-
-
 }
 
-.big, h3 {
+header h3, .big {
   font-size: 42px;
   line-height: 36px;
   color: #A9A9A9;
   display: inline;
   letter-spacing: -3px;
-
 }
 
 .normal, body {
@@ -89,8 +80,7 @@ p {
   text-align: justify;
 }
 a {
-  color: #fff;
-  text-decoration: none;
+  color: inherit;
 }
 /* Buttons */
 .fl_width_button {
@@ -105,7 +95,7 @@ a {
 .buy:active { top: 1px; }
 .small.buy, .small.buy:visited { font-size: 11px; padding: ; }
 .buy, .buy:visited {
-  background: #222 url(/images/alert-overlay.png) repeat-x;
+  background: #222;
   display: inline-block;
   padding: 5px 10px 6px;
   color: #fff;
@@ -625,10 +615,10 @@ table.schedule {
   width: 600px;
 }
 
-.one_row tr, .one_row td { height: 30px; }
-.two_row tr, .two_row td { height: 60px; }
-.three_row tr, .three_row td { line-height: 90px; }
-.four_row tr, .four_row td {  line-height: 120px; }
+.one_row tr, .one_row td { height: 25px; }
+.two_row tr, .two_row td { height: 50px; }
+.three_row tr, .three_row td { line-height: 75px; }
+.four_row tr, .four_row td {  line-height: 100px; }
 
 .schedule td, .schedule th {
   border-right: 1px solid #aaa;
@@ -703,6 +693,7 @@ table.schedule {
 
   padding: 10px;
   display: block;
+  text-decoration:none;
 }
 
 #speakers-tabs li:hover {
@@ -804,4 +795,8 @@ table.schedule {
 /* Sponsors page */
 #speakers-tabs-people img {
   width: 140px;
+}
+
+.venue .photo {
+display:block;
 }
