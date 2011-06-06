@@ -800,3 +800,31 @@ table.schedule {
 .venue .photo {
 display:block;
 }
+
+.sponsors-page {
+
+}
+
+.sponsors-page ul.horizon li {
+display: inline-block;
+margin:0;
+}
+
+ul.horizon {
+background: #fff;
+margin:0;
+-moz-border-radius:5px;
+-webkit-border-radius:5px;
+border-radius:5px;
+}
+
+ul.horizon p {
+text-align: center;
+color: #000;
+margin:0;
+line-height: 2em;
+}
+
+.sponsors-page .thanks {
+
+}
