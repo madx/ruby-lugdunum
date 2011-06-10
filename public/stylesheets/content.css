@@ -828,3 +828,17 @@ line-height: 2em;
 .sponsors-page .thanks {
 
 }
+
+.sponsors-page > img {
+float:left;
+margin: 1em 1em 1em 0;
+background: #fff;
+-webkit-border-radius: 5px
+-moz-border-radius: 5px;
+border-radius:5px;
+}
+
+.sponsors-page > h3 {
+clear:both;
+}
+
