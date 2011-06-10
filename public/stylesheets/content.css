@@ -76,8 +76,8 @@ hr {
   height: 2px;
 }
 p {
-  margin-bottom: 24px;
-  text-align: justify;
+  line-height: 1.5em;
+  margin-bottom: 1em;
 }
 a {
   color: inherit;
