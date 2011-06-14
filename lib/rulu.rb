@@ -78,6 +78,10 @@ HTML
   get '/legal' do
     show :legal
   end
+  
+  get '/party' do
+    show :party
+  end
 
   private
   def show(page, layout = true)
