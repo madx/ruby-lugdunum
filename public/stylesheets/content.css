@@ -825,8 +825,11 @@ margin:0;
 line-height: 2em;
 }
 
-.sponsors-page .thanks {
-
+.thanks {
+background-color: rgba(255, 255, 255, 0.9);
+border-radius: 5px;
+color: #333;
+padding: 0.8em;
 }
 
 .sponsors-page > img {
