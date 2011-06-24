@@ -845,3 +845,12 @@ border-radius:5px;
 clear:both;
 }
 
+
+.travaux {
+background-color: white;
+border-radius: 5px;
+border: red solid 2px;
+color: #333;
+padding: 0.8em;
+}
+
