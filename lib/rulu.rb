@@ -54,37 +54,18 @@ HTML
     show :index
   end
 
-  # TODO Sinatra can't be DRYer than this?
-  get '/schedule' do
-    show :schedule
-  end
-
-  get '/speakers' do
-    show :speakers
-  end
-
-  get '/venue' do
-    show :venue
-  end
-
-  get '/sponsoring' do
-    show :sponsoring
-  end
-  
-  get '/sponsors' do
-    show :sponsors
-  end
-
-  get '/legal' do
-    show :legal
-  end
-  
-  get '/party' do
-    show :party
+  pages = [
+    :schedule, :speakers, :venue, :sponsoring, :sponsors, :legal, :party
+  ]
+  pages.each do |page|
+    get "/#{page}" do
+      show page
+    end
   end
 
   private
   def show(page, layout = true)
     erb page.to_sym, {:layout => layout}
   end
+
 end
